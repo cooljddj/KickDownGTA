@@ -1,6 +1,37 @@
 #user-lists .list.staff .group {
     background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
 }
+/* BOT CUSTOMIZATION */
+
+.id-6450433,
+.emote.id-6450433 {
+	background: linear-gradient(135deg,#443956 100%,#111317,#483A5E 100%);
+    /*background: #443956;*/
+}
+/*#chat-messages .cm.emote.id-6450433
+{
+    text-shadow: 0 0 10px #0000FF;
+    color: #00FFFF;
+}
+#chat .emote .from.id-6450433 {
+     color: #00FFFF !important;
+}
+#chat-messages .id-6450433 
+{
+        background: linear-gradient(85deg,#00FFFF 0,#6df2ea 33%,#6df2ea 100%) !important;
+        /*background: rgba(59, 153, 246, 0.8) !important;*/
+      /*  border-left: 3px solid #8230FF;
+}*/
+/*
+[data-cid^="6450433"] .msg .from .un 
+{
+        color: #ac76ff !important;
+}*/
+/*#chat .moderation {
+        background: linear-gradient(85deg,#00FFFF 0,#6df2ea 33%,#6df2ea 100%) !important;
+        /*background: rgba(34, 23, 54, 0.33) !important;*/
+      /*  border-left: 3px solid #8230FF;
+}*/
 /*
 body {
     font-family: "Sans-serif",sans-serif;
@@ -13,7 +44,7 @@ body {
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
 .icon-site-logo { 
-    background: url('https://cloud.githubusercontent.com/assets/8460503/15720582/b32c006e-283d-11e6-81f7-40277d01a36d.png') repeat scroll 0% 0% transparent;
+    background: url('https://cloud.githubusercontent.com/assets/8460503/9047303/b07a64ca-3a39-11e5-8eaf-dbc47ec0a303.png') repeat scroll 0% 0% transparent;
     background-position: 0px 0px; 
 } 
 #playlist-button, #app-header {
@@ -74,17 +105,19 @@ body {
     /*padding-left: 25px;*/
     border-left: #7681FF 3px solid;
 }
+/*
 #chat .emote .from {
      color: #ac76ff !important;
-}
+}*/
 #footer-user .info .bar .progress
 {
      color: rgba(50, 200, 180, 0.9);
 }
+/*
 #chat .emote {
-    border-left: rgba(174, 69, 189, 1) 3px solid !important;
-    background-color: rgba(76, 93, 119, 0.22) !important;
-}
+    border-left: rgba(55, 157, 225, 1) 3px solid !important;
+    background-color: rgba(55, 157, 225, 0.22) !important;
+}*/
 #chat-messages .emote .icon {
     /*left: 4px;*/
 }
@@ -130,14 +163,7 @@ body {
 #user-panel .score {
     background: rgba(28, 31, 37, 0.59);
 }
-#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-    background: #222224;
-}
-#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
-background: #121214;
-border-radius: 8px;
-/*border-left-width: 4px;*/
-}
+
 /*#dj-button.is-quit .left {
 border-left: 3px solid #f46b40;
 }
@@ -153,9 +179,84 @@ border-left: 3px solid #734ba9;
 #dj-button.is-full .left {
 border-left: 3px solid #CCCCCC;
 }*/
+/* Thanks to Wolf for the dj button animation*/
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+    background: #222224;
+}
+#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left, #dj-button.is-join .left{
+background: #121214;
+border-radius: 8px;
+border-left-width: 4px;
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(244, 107, 64, 1) !important;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(115, 75, 169, 1) !important;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
+#dj-button.is-join .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -moz-box-shadow:        inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    -o-box-shadow:          inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+    box-shadow:             inset -155px 0 0 0 rgba(0, 181, 230, 1) !important;
+}
 #dj-button {
 background: #222224;
 border-radius: 8px;
+}
+ 
+/* me chat effect [By: Wolf] */
+#chat-messages .cm.emote.id-[6450433]{
+    text-shadow: 0 0 10px #0000FF;
+    color: #00FFFF;
 }
 #vote .crowd-response {
 background: #222224;
@@ -188,16 +289,11 @@ background: #c42e3b;
 [data-cid^="6450433-"] span.un.clickable {
     color: #FFFFFF!important;
 }*/
-/*Holo Man*/
-[data-cid^="9150952-"]   .badge-box .bdg { 
-    background-image: url("https://cloud.githubusercontent.com/assets/8460503/9075103/5004bc5e-3b19-11e5-91ae-0b8b0933b981.jpg") !important;
-    background-position: 0px 0px;
-}
 /*Bot*/
-[data-cid^="5053314-"] .msg .from .icon-chat-manager {
+[data-cid^="6450433-"] .msg .from .icon-chat-manager {
     background: url("https://cloud.githubusercontent.com/assets/8460503/9035556/b7b00d88-39e1-11e5-9e37-634c73d12a2d.png")!important;
 }
-[data-cid^="5053314-"]   .badge-box .bdg { 
+[data-cid^="6450433-"]   .badge-box .bdg { 
     background-image: url("https://cloud.githubusercontent.com/assets/8460503/9075705/9c20b424-3b20-11e5-98b6-df932a866543.jpg") !important;
     background-position: 0px 0px;
 }
