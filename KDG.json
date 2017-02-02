@@ -1,6 +1,6 @@
 {
     "room":                     "KickDownGTA",
-    "css":                      "https://rawgit.com/cooljddj/KickDownGTA/master/style.css",
+    "css":                      "https://rawgit.com/cooljddj/KickDownGTA/master/themestyle.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
