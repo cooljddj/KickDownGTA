@@ -43,6 +43,9 @@ body {
 #footer {
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
+.room-background {
+	background: url('https://cdn.radiant.dj/rcs/bg/2k14lounge.jpg') no-repeat !important;	
+}
 .icon-site-logo { 
     background: url('https://raw.githubusercontent.com/cooljddj/KickDownGTA/master/b07a64ca-3a39-11e5-8eaf-dbc47ec0a303.png') repeat scroll 0% 0% transparent;
     background-position: -3px 0px; 
