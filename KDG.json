@@ -1,6 +1,6 @@
 {
     "room":                     "KickDownGTA",
-    "author":                   "COOLJ"
+    "author":                   "COOLJ",
     "css":                      "https://rawgit.com/cooljddj/KickDownGTA/master/themestyle.css",
     "rules": {
         "allowAutorespond":     true,
