@@ -45,7 +45,7 @@ body {
 }
 .icon-site-logo { 
     background: url('https://raw.githubusercontent.com/cooljddj/KickDownGTA/master/b07a64ca-3a39-11e5-8eaf-dbc47ec0a303.png') repeat scroll 0% 0% transparent;
-    background-position: 10px 0px; 
+    background-position: 100px 0px; 
 } 
 #playlist-button, #app-header {
     background: transparent linear-gradient(to bottom, rgba(50, 10, 150, 0.25) 0px, rgba(50, 50, 200, 1.75) 100%) repeat scroll 0% 0%;
