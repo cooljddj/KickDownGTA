@@ -298,7 +298,7 @@ background: #c42e3b;
     background-position: 0px 0px;
 }
 /*Bot Manager*/
-[data-cid^="5752002-"] .msg .from .icon-chat-manager {
+[data-cid^="5752002-"] .msg .from .icon-chat-host {
     background: url("https://github.com/cooljddj/KickDownGTA/raw/master/b7b00d88-39e1-11e5-9e37-634c73d12a2d.png")!important;
 }
 [data-cid^="5752002-"]   .badge-box .bdg { 
