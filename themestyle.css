@@ -3,27 +3,27 @@
 }
 /* BOT CUSTOMIZATION */
 
-.id-6450433,
-.emote.id-6450433 {
+.id-5889743,
+.emote.id-5889743 {
 	background: linear-gradient(135deg,#443956 100%,#111317,#483A5E 100%);
     /*background: #443956;*/
 }
-/*#chat-messages .cm.emote.id-6450433
+/*#chat-messages .cm.emote.id-5889743
 {
     text-shadow: 0 0 10px #0000FF;
     color: #00FFFF;
 }
-#chat .emote .from.id-6450433 {
+#chat .emote .from.id-5889743 {
      color: #00FFFF !important;
 }
-#chat-messages .id-6450433 
+#chat-messages .id-5889743 
 {
         background: linear-gradient(85deg,#00FFFF 0,#6df2ea 33%,#6df2ea 100%) !important;
         /*background: rgba(59, 153, 246, 0.8) !important;*/
       /*  border-left: 3px solid #8230FF;
 }*/
 /*
-[data-cid^="6450433"] .msg .from .un 
+[data-cid^="5889743"] .msg .from .un 
 {
         color: #ac76ff !important;
 }*/
@@ -254,7 +254,7 @@ border-radius: 8px;
 }
  
 /* me chat effect [By: Wolf] */
-#chat-messages .cm.emote.id-[6450433]{
+#chat-messages .cm.emote.id-[5889743]{
     text-shadow: 0 0 10px #0000FF;
     color: #00FFFF;
 }
@@ -286,14 +286,14 @@ background: #c42e3b;
     right: 35px !important;
 }
 /*
-[data-cid^="6450433-"] span.un.clickable {
+[data-cid^="5889743-"] span.un.clickable {
     color: #FFFFFF!important;
 }*/
 /*Bot*/
-[data-cid^="6450433-"] .msg .from .icon-chat-manager {
+[data-cid^="5889743-"] .msg .from .icon-chat-manager {
     background: url("https://cloud.githubusercontent.com/assets/8460503/9035556/b7b00d88-39e1-11e5-9e37-634c73d12a2d.png")!important;
 }
-[data-cid^="6450433-"]   .badge-box .bdg { 
+[data-cid^="5889743-"]   .badge-box .bdg { 
     background-image: url("https://cloud.githubusercontent.com/assets/8460503/9075705/9c20b424-3b20-11e5-98b6-df932a866543.jpg") !important;
     background-position: 0px 0px;
 }
