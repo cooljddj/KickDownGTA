@@ -105,19 +105,19 @@ body {
     /*padding-left: 25px;*/
     border-left: #7681FF 3px solid;
 }
-/*
+
 #chat .emote .from {
      color: #ac76ff !important;
-}*/
+}
 #footer-user .info .bar .progress
 {
      color: rgba(50, 200, 180, 0.9);
 }
-/*
-#chat .emote {
+
+[data-cid^="5889743"] .emote {
     border-left: rgba(55, 157, 225, 1) 3px solid !important;
     background-color: rgba(55, 157, 225, 0.22) !important;
-}*/
+}
 #chat-messages .emote .icon {
     /*left: 4px;*/
 }
